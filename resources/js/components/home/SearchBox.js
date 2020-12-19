@@ -88,10 +88,10 @@ class SearchBox extends React.Component {
             <div>
                 <div className="search-box">
                     {this.renderShowSearch(this.state.show)}
-                    {this.renderSearchPage(this.state.showPage)}
+                    {/*{this.renderSearchPage(this.state.showPage)}*/}
                 </div>
 
-                {/*{this.renderPageShowBox(this.state.showPage)}*/}
+                {this.renderPageShowBox(this.state.showPage)}
 
             </div>
         );
