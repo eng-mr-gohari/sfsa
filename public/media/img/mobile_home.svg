@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #252a6e;
+      }
+    </style>
+  </defs>
+  <g id="home" transform="translate(-3 -2)">
+    <path id="Path_6326" data-name="Path 6326" class="cls-1" d="M3,9l9-7,9,7V20a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2Z"/>
+  </g>
+</svg>

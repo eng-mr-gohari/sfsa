@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.272" height="21.272" viewBox="0 0 21.272 21.272">
+    <defs>
+        <style>
+            .cls-1, .cls-2 {
+            fill: none;
+            stroke: #ffffff;
+            stroke-linejoin: round;
+            stroke-width: 2px;
+            }
+
+            .cls-1 {
+            stroke-linecap: round;
+            }
+        </style>
+    </defs>
+    <g id="search" transform="translate(-1.565 -1.565)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="8.5" cy="8.5" r="8.5" transform="translate(2.565 2.565)"/>
+        <line id="Line_3" data-name="Line 3" class="cls-2" x1="4.623" y1="4.623" transform="translate(17.507 17.507)"/>
+    </g>
+</svg>

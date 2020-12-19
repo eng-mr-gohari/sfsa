@@ -1,0 +1,4 @@
+.search-input[type=input]:focus {
+    outline: none;
+
+}

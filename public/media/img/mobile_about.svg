@@ -1,0 +1,23 @@
+<svg id="user-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #252a6e;
+      }
+
+      .cls-3 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <path id="Path_6327" data-name="Path 6327" class="cls-1" d="M0,0H24V24H0Z"/>
+  <g id="Group_145" data-name="Group 145" transform="translate(-311 -760)">
+    <path id="Path_6328" data-name="Path 6328" class="cls-2" d="M4,22a8,8,0,0,1,16,0H18A6,6,0,0,0,6,22Zm8-9a6,6,0,1,1,6-6A6,6,0,0,1,12,13Zm0-2A4,4,0,1,0,8,7,4,4,0,0,0,12,11Z" transform="translate(311 760)"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" class="cls-3" cx="5" cy="5" r="5" transform="translate(318 762)"/>
+    <path id="Path_6329" data-name="Path 6329" class="cls-3" d="M2.877,0,7.839-1.493l5,1.493L15,5H0Z" transform="translate(315 777)"/>
+  </g>
+</svg>

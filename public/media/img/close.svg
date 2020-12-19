@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Ellipse_27" fill="#ffffff" opacity=".3" cx="12.5" cy="12.5" r="12.5"/>
+  <g id="plus" transform="translate(12.802 5.8) rotate(48)">
+    <g>
+      <path fill="#ffffff" d="M9.054,4.343H5.079V.368a.368.368,0,0,0-.736,0V4.343H.368a.368.368,0,0,0,0,.736H4.343V9.054a.368.368,0,0,0,.736,0V5.079H9.054a.368.368,0,0,0,0-.736Z"/>
+    </g>
+  </g>
+</svg>
