@@ -6,13 +6,15 @@ import Languages from "./Languages";
 class SearchBox extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {subject: '', instagram: '', email: '', phone: '', show: true, showPage: false, showInPage: false};
+        this.state = { show: true, showPage: false};
+
     }
 
     showHidePage() {
         const status = this.state.showPage;
         this.setState({showPage: !status})
     }
+
 
     renderPageShowBox(show) {
         if (show) {
@@ -66,29 +68,13 @@ class SearchBox extends React.Component {
         }
     }
 
-    closeBox() {
-        const status = this.state.showPage;
-        this.setState({showPage: !status})
-    }
 
-    renderSearchPage(show) {
-        if (show) {
-            return (
-                <div className="page-search-area">
-                    <SearchPage click={this.closeBox}/>
-                </div>
-            );
-        } else {
-            return null;
-        }
-    }
 
     render() {
         return (
             <div>
                 <div className="search-box">
                     {this.renderShowSearch(this.state.show)}
-                    {/*{this.renderSearchPage(this.state.showPage)}*/}
                 </div>
 
                 {this.renderPageShowBox(this.state.showPage)}

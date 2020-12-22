@@ -4,16 +4,7 @@ import Languages from "./Languages";
 class SearchPage extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {showBox: true,show:true};
-    }
-
-    // componentDidMount() {
-    //     this.setState({showBox: true});
-    // }
-
-    showHideBox() {
-        const status = this.state.showBox;
-        this.setState({showBox: !status});
+        this.props = {show: true};
     }
 
     renderShowBox(show) {
@@ -24,7 +15,7 @@ class SearchPage extends React.Component {
                         <div className="top-contact-box">
                             <div className="close-top-contact-box">
                                 <img src="media/img/close_ico.svg" alt="Close Search Box"
-                                     onClick={this.showHideBox(this.props.click)}/>
+                                />
                             </div>
                             <div className="language-top-contact-box">
                                 <Languages language="en"/>
