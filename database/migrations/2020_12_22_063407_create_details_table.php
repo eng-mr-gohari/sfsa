@@ -15,10 +15,8 @@ class CreateDetailsTable extends Migration
     {
         Schema::create('details', function (Blueprint $table) {
             $table->id();
-            $table->tinyInteger('table_selection')->index();
-            $table->bigInteger('fk_details_id')->index();
-            $table->string('title');
-            $table->string('context')->nullable();
+            $table->bigInteger('product_id')->index();
+            $table->timestamps();
         });
     }
 

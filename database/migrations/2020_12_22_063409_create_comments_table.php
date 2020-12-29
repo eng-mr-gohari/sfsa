@@ -15,9 +15,9 @@ class CreateCommentsTable extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->boolean('checked')->index();
-            $table->boolean('read')->index();
-            $table->bigInteger('user_id')->index();
+            $table->boolean('checked')->index(); // for visible item
+            $table->boolean('read')->index(); // read by admin
+            $table->bigInteger('user_id')->index(); // send user id
             $table->bigInteger('product_id')->index();
             $table->string('title');
             $table->string('context')->nullable();

@@ -1,15 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import LogoMobile from "./LogoMobile";
-import ToggleButton from "./ToggleButton";
 import Languages from "./Languages";
 import SearchBox from "./SearchBox";
 
 class Navigation extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div id="navigation">
@@ -22,7 +15,7 @@ class Navigation extends React.Component {
                     <div className="navigation-item"><a href="#" className="navigation-link">Contact Us</a></div>
                 </div>
                 <Languages language="en"/>
-                <SearchBox show={true}/>
+                <SearchBox show="true"/>
             </div>
         );
     }
